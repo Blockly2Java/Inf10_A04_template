@@ -5,8 +5,8 @@
       {
         "type": "java_static_method_noreturn",
         "id": "0-~]xj!ER5LuqkjtzKSY",
-        "x": 106,
-        "y": 98,
+        "x": 6,
+        "y": -38,
         "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"></mutation>",
         "icons": {
           "comment": {
@@ -18,8 +18,169 @@
         },
         "fields": {
           "NAME": "main"
+        },
+        "inputs": {
+          "STACK": {
+            "block": {
+              "type": "java_static_method_call_noreturn",
+              "id": "2h~!(bSIk787s?IT.1*O",
+              "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" method=\"aufgabe1\" args=\"0\"></mutation>",
+              "next": {
+                "block": {
+                  "type": "java_static_method_call_noreturn",
+                  "id": "E:kzYde1iHCEahMUQP?-",
+                  "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" method=\"aufgabe2\" args=\"1\" name0=\"limit\"></mutation>",
+                  "inputs": {
+                    "ARG0": {
+                      "block": {
+                        "type": "math_number",
+                        "id": "}s4Q7RYcJR[FttW7buNR",
+                        "fields": {
+                          "NUM": 123
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "java_static_method_call_noreturn",
+                      "id": ":fH@;]ty?l.]2ljMUppf",
+                      "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" method=\"aufgabe3\" args=\"2\" name0=\"start\" name1=\"ende\"></mutation>",
+                      "inputs": {
+                        "ARG0": {
+                          "block": {
+                            "type": "math_number",
+                            "id": "2!b[2BdLUlGIt[{dmxdB",
+                            "fields": {
+                              "NUM": 123
+                            }
+                          }
+                        },
+                        "ARG1": {
+                          "block": {
+                            "type": "math_number",
+                            "id": "#Dp)/Jl1v7Ih8O]_tMH6",
+                            "fields": {
+                              "NUM": 123
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "java_static_method_call_noreturn",
+                          "id": "2wa7/,pbOzWzvJWsBy~2",
+                          "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" method=\"aufgabe4\" args=\"1\" name0=\"limit\"></mutation>",
+                          "inputs": {
+                            "ARG0": {
+                              "block": {
+                                "type": "math_number",
+                                "id": "11-E2}6[YRyv;Y%kle=c",
+                                "fields": {
+                                  "NUM": 123
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "java_static_method_call_noreturn",
+                              "id": "]LYwBnZzy8j9$loJ![5I",
+                              "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" method=\"aufgabe5\" args=\"1\" name0=\"limit\"></mutation>",
+                              "inputs": {
+                                "ARG0": {
+                                  "block": {
+                                    "type": "math_number",
+                                    "id": "J8q)91+iLyhv#p?%Hb7d",
+                                    "fields": {
+                                      "NUM": 123
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "java_static_method_noreturn",
+        "id": "CluJTq?o=58[AeQIuHmj",
+        "x": 32,
+        "y": 251,
+        "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"></mutation>",
+        "fields": {
+          "NAME": "aufgabe1"
+        }
+      },
+      {
+        "type": "java_static_method_noreturn",
+        "id": "Nh|gqWNNGY=LSvrf*_*/",
+        "x": 12,
+        "y": 381,
+        "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"><arg name=\"limit\" varid=\"Q|DipgNn^i=F60T9K_92\"></arg></mutation>",
+        "fields": {
+          "NAME": "aufgabe2"
+        }
+      },
+      {
+        "type": "java_static_method_noreturn",
+        "id": "5s|`NTzt6rx*@6qc4ENt",
+        "x": -25,
+        "y": 496,
+        "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"><arg name=\"start\" varid=\"3j$-c1S~ooZLo+IL;F)4\"></arg><arg name=\"ende\" varid=\"#=.jZm-JKN6Phn:+inql\"></arg></mutation>",
+        "fields": {
+          "NAME": "aufgabe3"
+        }
+      },
+      {
+        "type": "java_static_method_noreturn",
+        "id": "/%g_Fwp.WKXZ2#-beh|}",
+        "x": -60,
+        "y": 598,
+        "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"><arg name=\"limit\" varid=\"Q|DipgNn^i=F60T9K_92\"></arg></mutation>",
+        "fields": {
+          "NAME": "aufgabe4"
+        }
+      },
+      {
+        "type": "java_static_method_noreturn",
+        "id": "%h[dd+Od;6Z.^6[NmcH%",
+        "x": -34,
+        "y": 679,
+        "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"><arg name=\"limit\" varid=\"Q|DipgNn^i=F60T9K_92\"></arg></mutation>",
+        "fields": {
+          "NAME": "aufgabe5"
         }
       }
     ]
-  }
+  },
+  "variables": [
+    {
+      "name": "i",
+      "id": "x,e3K}VA5w.x8kp|C0o4"
+    },
+    {
+      "name": "limit",
+      "id": "Q|DipgNn^i=F60T9K_92",
+      "type": "param"
+    },
+    {
+      "name": "start",
+      "id": "3j$-c1S~ooZLo+IL;F)4",
+      "type": "param"
+    },
+    {
+      "name": "ende",
+      "id": "#=.jZm-JKN6Phn:+inql",
+      "type": "param"
+    }
+  ]
 }
