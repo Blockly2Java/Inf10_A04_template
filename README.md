@@ -8,7 +8,17 @@ Zu While- und For-Schleifen helfen die folgenden Videos von Jonas Keil:
 - [While-Schleifen](https://youtu.be/mcm84hlxXo8).
 - [For-Schleifen](https://www.youtube.com/watch?v=CoEKIbc8B0k).
 
-Löse nun folgende Aufgaben mit einer While-Schleife:
+---
+
+## Aufgaben
+
+
+- 1: 0 bis 9
+- 2: 0 bis limit
+- 3: Rückwärts Start bis Ende
+- 4: Quadratzahl Strings
+- 5: Fibonacci-Zahlen 
+
 [task][Aufgabe 1: Zählen von 5 bis zum Parameter (1,5 BE)](testAufgabe1_lineCount1,testAufgabe1_exactMatch1,testAufgabe1_lineCount2,testAufgabe1_exactMatch2,testAufgabe1_lineCount3,testAufgabe1_exactMatch3)
 Gib alle ganzen Zahlen von 5 bis einschließlich dem Wert des Parameters `limit` in jeweils einer eigenen Zeile auf der Konsole aus.
 
